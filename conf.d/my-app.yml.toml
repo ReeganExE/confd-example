@@ -1,0 +1,7 @@
+[template]
+src  = "my-app.yml.tmpl"
+dest = "/etc/my-app.yml"
+keys = [
+ "/first/name",
+ "/db/schema"
+]

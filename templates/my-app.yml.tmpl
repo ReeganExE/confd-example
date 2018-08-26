@@ -1,0 +1,4 @@
+spring:
+  apps:
+    - name: {{getv "/first/name"}}
+    - db: "jdbc:mysql://localhost/{{getv "/db/schema"}}?useSSL=true&requireSSL=true"
